@@ -1,0 +1,49 @@
+body {
+    background: #290420;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    position: relative;
+    display: inline;
+    padding: 15px 30px;
+    color: #bb91b7;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#echoText {
+    color: black;
+}
+
+textarea,
+#send,
+#disconnect,
+#message {
+    position: relative;
+    display: inline;
+    padding: 5px 10px;
+    color: #bb91b7;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#send:hover,
+#disconnect:hover {
+    color: #bb91b7;
+    background: #9e0e86d0;
+    box-shadow: 0 0 3px #9e0e86d0, 0 0 9px #9e0e86d0, 0 0 15px #9e0e86d0;
+}
